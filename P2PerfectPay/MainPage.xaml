@@ -31,7 +31,7 @@
                 <Label Grid.ColumnSpan="3"
                        FontAttributes="Bold"
                        HorizontalTextAlignment="Center"
-                       Text="TOTAL PERSON"
+                       Text="POR PERSONA"
                        TextColor="{StaticResource DarkFont}"/>
                 <Label x:Name="lblTotal"
                        Grid.Row="1"
@@ -59,7 +59,7 @@
                            Text="$0.00"
                            TextColor="{StaticResource LightFont}"/>
                     <Label Margin="0,10,0,0"
-                           Text="TIP"
+                           Text="PROPINA"
                            TextColor="{StaticResource LightFont}"/>
                     <Label x:Name="lblTipByPerson"
                            FontAttributes="Bold"
@@ -82,7 +82,7 @@
                 <RowDefinition/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
-            <Label Text="Enter your bill: $"
+            <Label Text="Introduce la cuenta: €"
                    TextColor="{StaticResource LightFont}"
                    VerticalOptions="Center"/>
             <Entry x:Name="txtBill"
@@ -94,7 +94,7 @@
                    Completed="txtBill_Completed"
                    VerticalOptions="Center"/>
             <Label Grid.Row="1"
-                   Text="Choose your tip"
+                   Text=" Elige la propina "
                    TextColor="{StaticResource LightFont}"
                    VerticalOptions="Center"/>
             <HorizontalStackLayout
@@ -109,7 +109,7 @@
             </HorizontalStackLayout>
             <Label x:Name="lblTip"
                    Grid.Row="2"
-                   Text="Tip: 0%"
+                   Text="Propina: 0%"
                    TextColor="{StaticResource LightFont}"
                    VerticalOptions="Center"/>
             <Slider
@@ -121,7 +121,7 @@
                 ValueChanged="sldTip_ValueChanged"/>
             <Label 
                    Grid.Row="3"
-                   Text="Split The total"
+                   Text="Comensales totales"
                    TextColor="{StaticResource LightFont}"
                    VerticalOptions="Center"/>
             <HorizontalStackLayout
