@@ -38,7 +38,7 @@
                        FontAttributes="Bold"
                        FontSize="35"
                        HorizontalTextAlignment="Center"
-                       Text="$0,00"
+                       Text="€0,00"
                        TextColor="{StaticResource LightFont}"
                        VerticalOptions="CenterAndExpand"/>
                 <BoxView
